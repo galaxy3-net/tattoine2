@@ -29,7 +29,7 @@ Vagrant.configure("2") do |config|
 		virtualbox__intnet: "metasploitable3"
 
     win2k8.vm.provider "virtualbox" do |v|
-      v.name = ENV['boxname']
+      v.name = "Metasploitable3-win28k"
       v.memory = 4096
       v.cpus = 2
 #      v.video_type = 'qxl'
